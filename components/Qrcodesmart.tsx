@@ -1,10 +1,10 @@
-import React from 'react';
+ import React from 'react';
 import Image from 'next/image';
 
 const Qrcodesmart = () => {
   return (
     <div className=" text-black bg-green-50 w-[90%] max-w-md h-auto p-6 ml-2 rounded-lg shadow-lg ">
-      <div className=''>
+      <div>
 
        <div className='flex justify-center '>
         
@@ -15,7 +15,7 @@ const Qrcodesmart = () => {
         height={55}
         />
         </div>
-        <div className='flex justify-center  mt-6'>
+        <div className='flex justify-center mt-6'>
           <Image className=' border-black border-4'
           src="./assets/qrcode-smartphone.svg"
           alt={'QRCode pc'}

@@ -4,8 +4,8 @@ import Image from 'next/image';
 
 const Qrcodepc = () => {
   return (
-    <div className="text-black bg-cyan-50 w-[90%] max-w-md h-auto  rounded-lg shadow-lg">
-      <div className=''>
+    <div className="text-black bg-cyan-50 w-[90%] max-w-md h-auto p-6 ml-2 rounded-lg shadow-lg">
+      <div>
 
        <div className='flex justify-center '>
         
@@ -28,7 +28,7 @@ const Qrcodepc = () => {
         --- OU ---
         </div>
         <div className=' flex justify-center mt-2.5'>
-          <button className=" p-1 border border-black rounded-2xl bg-green-800">
+          <button className=" p-1 border border-black rounded-2xl  bg-green-600 hover:bg-green-800">
             <a href="https://github.com/tcc-Iago-Lucas/game/releases/download/v_1.0.0_wapi_pc/NoobSecurity.zip">
               Clique Aqui para fazer download
             </a>
