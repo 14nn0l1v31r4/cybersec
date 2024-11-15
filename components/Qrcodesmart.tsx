@@ -3,7 +3,7 @@ import Image from 'next/image';
 
 const Qrcodesmart = () => {
   return (
-    <div className="inline-block text-black bg-green-50 w-80 h-96 ml-80 mt-28 ">
+    <div className=" text-black bg-green-50 w-[90%] max-w-md h-auto p-6 ml-2 rounded-lg shadow-lg ">
       <div className=''>
 
        <div className='flex justify-center '>
