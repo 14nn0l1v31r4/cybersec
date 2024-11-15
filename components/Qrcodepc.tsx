@@ -4,7 +4,7 @@ import Image from 'next/image';
 
 const Qrcodepc = () => {
   return (
-    <div className="inline-block text-black bg-cyan-100 w-80 h-96 ml-80 mt-28 ">
+    <div className="inline-block text-black bg-cyan-50 w-80 h-auto ml-80 mt-28 ">
       <div className=''>
 
        <div className='flex justify-center '>
