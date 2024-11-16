@@ -30,7 +30,7 @@ const HelpSmart = () => {
         <li>
             Aparecerá outra caixa de Dialogo, dessa vez da Google Play Protect.
             Não se preocupe, Noob Security não oferece risco a sua segurança. 
-            Clique em mais detalhes e logo em seguida em "Instalar assim mesmo".
+            Clique em mais detalhes e logo em seguida em &quot;Instalar assim mesmo&quot;.
         </li>
         <li>
             O telefone pedirá confirmação com senha de desbloqueio do dispoisitivo, 
