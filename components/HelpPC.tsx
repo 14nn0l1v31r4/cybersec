@@ -3,7 +3,7 @@ import React from 'react'
 const HelpPC = () => {
   return (
     <div>
-        <li className='font-serif font-black'>
+        <li className='font-serif font-black break-words'>
         Como Instalar no Computador
         </li>
         <li className='p-2'>
