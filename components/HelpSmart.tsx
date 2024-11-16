@@ -3,7 +3,7 @@ import React from 'react'
 const HelpSmart = () => {
   return (
     <div className=''>
-        <li className='font-serif font-black break-words'>
+        <li className='font-serif font-black break-words max-h-screen'>
         Como Instalar no Celular
         </li>
         <li>
