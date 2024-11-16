@@ -3,6 +3,7 @@ import React from 'react'
 const HelpSmart = () => {
   return (
     <div className=' pl-5 space-y-3 break-words max-w-full'>
+        <ul className='list-disc'>
         <li className='font-serif font-black break-words max-h-screen'>
         Como Instalar no Celular
         </li>
@@ -41,6 +42,7 @@ const HelpSmart = () => {
             Clique em abrir. Agora você poderá jogar Noob Security sem problemas sempre que quiser! 
             Divirta-se!
         </li>
+        </ul>
     </div>
   )
 }
