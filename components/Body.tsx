@@ -1,6 +1,7 @@
 import React from 'react'
 import Qrcodepc from './Qrcodepc'
 import Qrcodesmart from './Qrcodesmart'
+import Help from './Help'
 
 const Body = () => {
   return (
@@ -16,6 +17,9 @@ const Body = () => {
         <Qrcodepc />
 
         <Qrcodesmart />
+        </div>
+        <div>
+          <Help/>
         </div>
     </div>
   )
