@@ -2,8 +2,8 @@ import React from 'react'
 
 const HelpSmart = () => {
   return (
-    <div className=' pl-5 space-y-3 break-words max-w-full'>
-        <ul className='list-disc space-y-3 break-words max-w-full'>
+    <div className=' pl-5 space-y-3 break-words max-w-full '>
+        <ul className='list-disc space-y-3 break-words max-w-full '>
         <li className='font-serif font-black break-words max-h-screen'>
         Como Instalar no Celular
         </li>

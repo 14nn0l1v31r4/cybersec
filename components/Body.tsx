@@ -2,10 +2,11 @@ import React from 'react'
 import Qrcodepc from './Qrcodepc'
 import Qrcodesmart from './Qrcodesmart'
 import Help from './Help'
+import Form from './Form'
 
 const Body = () => {
   return (
-    <div className=" bg-gradient-to-r from-green-900 via-green-950 to-black w-full min-h-screen">
+    <div className=" bg-gradient-to-r from-green-900 via-green-950 to-black w-full min-h-screen ">
         <div className='text-center font-serif font-extrabold text-4xl md:text-6xl pt-16 md:p-4'>
             Noob Security
             
@@ -18,8 +19,11 @@ const Body = () => {
 
         <Qrcodesmart />
         </div>
-        <div>
+        <div className='' >
           <Help/>
+        </div>
+        <div>
+          <Form />
         </div>
     </div>
   )
