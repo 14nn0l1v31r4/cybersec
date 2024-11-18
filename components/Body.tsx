@@ -6,7 +6,7 @@ import Form from './Form'
 
 const Body = () => {
   return (
-    <div className=" bg-gradient-to-r from-green-900 via-green-950 to-black w-full min-h-screen ">
+    <div className=" bg-gradient-to-r from-green-900 via-green-950 to-black w-full min-h-screen overflow-hidden">
         <div className='text-center font-serif font-extrabold text-4xl md:text-6xl pt-16 md:p-4'>
             Noob Security
             
@@ -19,10 +19,10 @@ const Body = () => {
 
         <Qrcodesmart />
         </div>
-        <div className='' >
+        <div >
           <Help/>
         </div>
-        <div>
+        <div className='mb-1'>
           <Form />
         </div>
     </div>
