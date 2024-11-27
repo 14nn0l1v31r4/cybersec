@@ -12,7 +12,7 @@ const Body = () => {
             Noob Security
             
         </div>
-        <div className='p-2'>
+        <div className='p-4'>
           <Apresentation/>
         </div>
 
