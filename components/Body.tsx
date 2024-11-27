@@ -15,7 +15,7 @@ const Body = () => {
         </div>
             
         </div>
-        <div>
+        <div className='p-1'>
           <Apresentation/>  
         </div>
 
