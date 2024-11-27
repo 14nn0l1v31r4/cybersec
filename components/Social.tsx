@@ -1,9 +1,9 @@
 import React from 'react'
 import Image from 'next/image'
 
-const Footer = () => {
+const Social = () => {
   return (
-    <div className='p-2'>
+    <div className=''>
     <div className=''>
 
     <a href="https://www.instagram.com/projetojogandoeaprendendo/" className='flex justify-center'>
@@ -22,4 +22,4 @@ const Footer = () => {
   )
 }
 
-export default Footer
+export default Social

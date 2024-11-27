@@ -1,5 +1,5 @@
 import Apresentation from './Apresentation'
-import Footer from './Footer'
+import Social from './Social'
 import Form from './Form'
 import Help from './Help'
 import Qrcodepc from './Qrcodepc'
@@ -10,10 +10,11 @@ const Body = () => {
     <div className=" bg-gradient-to-r from-green-900 via-green-950 to-black w-full min-h-screen overflow-hidden">
         <div className='text-center font-serif font-extrabold text-4xl md:text-6xl pt-6  md:p-4'>
             Noob Security
-            
-        </div>
-        <div className='p-4'>
+          <Social />
           <Apresentation/>
+        <div>
+        </div>
+            
         </div>
 
         <div className='font-mono text-lg mt-10 ml-60'>
@@ -29,9 +30,6 @@ const Body = () => {
         </div>
         <div className='mb-1'>
           <Form />
-        </div>
-        <div>
-          <Footer />
         </div>
     </div>
   )
