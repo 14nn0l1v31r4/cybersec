@@ -19,7 +19,7 @@ const Body = () => {
           <Apresentation/>  
         </div>
 
-        <div className='font-mono text-lg mt-10 ml-60'>
+        <div className='font-mono text-lg mt-10 md:ml-60 ml-2'>
               Links para Download</div>
         
         <div className='flex flex-col md:flex-row justify-center items-center gap-8 mt-5'>
