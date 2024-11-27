@@ -11,8 +11,8 @@ const Body = () => {
         <div className='text-center font-serif font-extrabold text-4xl md:text-6xl pt-6  md:p-4'>
             Noob Security
           <Social />
-          <Apresentation/>
         <div>
+          <Apresentation/>  
         </div>
             
         </div>
