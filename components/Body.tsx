@@ -15,7 +15,9 @@ const Body = () => {
         </div>
             
         </div>
+        <div>
           <Apresentation/>  
+        </div>
 
         <div className='font-mono text-lg mt-10 ml-60'>
               Links para Download</div>

@@ -2,7 +2,7 @@ import React from 'react'
 
 const Apresentation = () => {
   return (
-    <div className="border rounded-md md:m-1 text-start p-2 md:text-lg md:p-3 shadow-md ">
+    <div className="border rounded-md md:m-1 text-start p-1 md:text-lg md:p-3 shadow-md ">
           
         Jogos vêm sendo utilizados não somente para entretenimento, mas também aprendizado, como
         os jogos educacionais. Estes jogos têm como finalidade mediar a aprendizagem, construir
