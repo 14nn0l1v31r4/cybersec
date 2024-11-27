@@ -8,11 +8,11 @@ import Qrcodesmart from './Qrcodesmart'
 const Body = () => {
   return (
     <div className=" bg-gradient-to-r from-green-900 via-green-950 to-black w-full min-h-screen overflow-hidden">
-        <div className='text-center font-serif font-extrabold text-4xl md:text-6xl pt-16 md:p-4'>
+        <div className='text-center font-serif font-extrabold text-4xl md:text-6xl pt-6  md:p-4'>
             Noob Security
             
         </div>
-        <div>
+        <div className='p-2'>
           <Apresentation/>
         </div>
 
