@@ -4,7 +4,7 @@ const HelpSmart = () => {
   return (
     <div className=' pl-5  break-words max-w-full '>
         <ul className='list-disc space-y-3 break-words max-w-full '>
-        <li className='font-serif font-black break-words max-h-screen'>
+        <li className='font-serif font-black break-words max-h-screen text-2xl  '>
         Como Instalar no Celular
         </li>
         <li>
